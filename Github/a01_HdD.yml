@@ -1,0 +1,12 @@
+name: a02_HdD
+on:
+  workflow_dispacth:
+jobs:
+  Mi_inicio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: "varios"
+        run:
+          git config user.name "jhassir-commit"
+          git config user.email "aleksander19120@gmail.com"
